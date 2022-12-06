@@ -1,4 +1,5 @@
-import './App.css';
+import "./App.css";
+import StarbucksInput from "./components/starbucks-input/StarbucksInput.js";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
+          <StarbucksInput />
           Learn React
         </a>
       </header>
